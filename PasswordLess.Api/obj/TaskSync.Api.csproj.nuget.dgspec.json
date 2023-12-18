@@ -1,0 +1,245 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Api/TaskSync.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Api/TaskSync.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Api/TaskSync.Api.csproj",
+        "projectName": "TaskSync.Api",
+        "projectPath": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Api/TaskSync.Api.csproj",
+        "packagesPath": "/Users/davicavalcante/.nuget/packages/",
+        "outputPath": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/davicavalcante/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Infrastructure/PasswordLess.Infrastructure.csproj": {
+                "projectPath": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Infrastructure/PasswordLess.Infrastructure.csproj"
+              },
+              "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.IoC/PasswordLess.IoC.csproj": {
+                "projectPath": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.IoC/PasswordLess.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Infrastructure/PasswordLess.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Infrastructure/PasswordLess.Infrastructure.csproj",
+        "projectName": "PasswordLess.Infrastructure",
+        "projectPath": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Infrastructure/PasswordLess.Infrastructure.csproj",
+        "packagesPath": "/Users/davicavalcante/.nuget/packages/",
+        "outputPath": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/davicavalcante/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.IoC/PasswordLess.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.IoC/PasswordLess.IoC.csproj",
+        "projectName": "PasswordLess.IoC",
+        "projectPath": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.IoC/PasswordLess.IoC.csproj",
+        "packagesPath": "/Users/davicavalcante/.nuget/packages/",
+        "outputPath": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.IoC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/davicavalcante/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Infrastructure/PasswordLess.Infrastructure.csproj": {
+                "projectPath": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Infrastructure/PasswordLess.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

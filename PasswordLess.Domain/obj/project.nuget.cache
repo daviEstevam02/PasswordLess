@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8WoX3s39alYRa9/r9yxdfPsaLUUJjOaL69sF3LwEZpXH1xPJCIQ/iAXbK4gWQo2peJT2BhQN883FR9kOJh8tWg==",
+  "success": true,
+  "projectFilePath": "/Users/davicavalcante/Desktop/Repos/PasswordLess/src/PasswordLess.Domain/PasswordLess.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/davicavalcante/.nuget/packages/flunt/2.0.5/flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/bin/Debug/net7.0/PasswordLess.Jwt.deps.json
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/bin/Debug/net7.0/PasswordLess.Jwt.dll
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/bin/Debug/net7.0/PasswordLess.Jwt.pdb
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/bin/Debug/net7.0/PasswordLess.Domain.dll
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/bin/Debug/net7.0/PasswordLess.Domain.pdb
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/obj/Debug/net7.0/PasswordLess.Jwt.csproj.AssemblyReference.cache
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/obj/Debug/net7.0/PasswordLess.Jwt.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/obj/Debug/net7.0/PasswordLess.Jwt.AssemblyInfoInputs.cache
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/obj/Debug/net7.0/PasswordLess.Jwt.AssemblyInfo.cs
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/obj/Debug/net7.0/PasswordLess.Jwt.csproj.CoreCompileInputs.cache
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/obj/Debug/net7.0/PasswordLess.Jwt.csproj.CopyComplete
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/obj/Debug/net7.0/PasswordLess.Jwt.dll
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/obj/Debug/net7.0/refint/PasswordLess.Jwt.dll
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/obj/Debug/net7.0/PasswordLess.Jwt.pdb
+/Users/davicavalcante/Desktop/Repos/PasswordLess/PasswordLess/src/PasswordLess.Jwt/obj/Debug/net7.0/ref/PasswordLess.Jwt.dll
