@@ -1,0 +1,4 @@
+/Users/davicavalcante/Desktop/Repos/PasswordLess/out/PasswordLess.Domain.dll
+/Users/davicavalcante/Desktop/Repos/PasswordLess/out/PasswordLess.Domain.deps.json
+/Users/davicavalcante/Desktop/Repos/PasswordLess/out/PasswordLess.Domain.pdb
+/Users/davicavalcante/Desktop/Repos/PasswordLess/out/Flunt.dll

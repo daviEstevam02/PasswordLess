@@ -25,7 +25,7 @@ public sealed class PasswordCode: ValueObject
     protected override void Validate()
         => AddNotifications(new Contract<PasswordCode>()
             .Requires()
-            .IsLowerOrEqualsThan(ExpirationDate.Minute, DateTime.UtcNow.Minute, "PasswordCode.ExpirationDate", "Expiration date must be in future")
+            .IsLowerOrEqualsThan(ExpirationDate, DateTime.UtcNow, "PasswordCode.ExpirationDate", "Expiration date must be in future")
         );
     
     private static string GenerateCode()

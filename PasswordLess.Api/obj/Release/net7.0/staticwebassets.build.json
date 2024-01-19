@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zLlbecI1KRzYMlxCwwref9+MUf5KEf7ATSZubkE301E=",
+  "Source": "PasswordLess.Api",
+  "BasePath": "_content/PasswordLess.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

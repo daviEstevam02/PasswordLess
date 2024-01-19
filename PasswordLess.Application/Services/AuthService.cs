@@ -46,11 +46,12 @@ public sealed class AuthService : BaseService<User, IUserRepository>, IAuthServi
             .GetOneAsync(code => 
                 code.Email.EmailAddress == viewModel.Email &&
                 code.PasswordCode.Code == viewModel.PasswordCode.ToInt32() &&
-                code.PasswordCode.ExpirationDate.Minute <= DateTime.UtcNow.Minute);
-
+                code.PasswordCode.ExpirationDate > DateTime.UtcNow);
+         
         if (validateCode is null)
         {
             AddNotification("User", $"Código de usuário inválido");
+
             return new ServiceResponse(false, Notifications.ToList());
         }
             
@@ -106,7 +107,7 @@ public sealed class AuthService : BaseService<User, IUserRepository>, IAuthServi
         }
 
         // Verificar se ele tem passwordcode valido
-        if (userExists.PasswordCode.IsValid)
+        if (userExists.PasswordCode.ExpirationDate > DateTime.UtcNow)
         {
             var emailModel = new EmailModel(
                 viewModel.Email,

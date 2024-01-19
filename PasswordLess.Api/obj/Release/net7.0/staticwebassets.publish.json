@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vtYF/eXH3I2A2bvs76FYEnBFQgSQ03cworWH/pxcooc=",
+  "Source": "PasswordLess.Api",
+  "BasePath": "_content/PasswordLess.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
